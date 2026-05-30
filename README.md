@@ -15,7 +15,7 @@
 
 ```
 Demo/
-├── lib/                          # SDK 库（构建产物）
+├── lib/                          # SDK 库（服务端项目负责构建SDK）
 │   ├── museum-agent-sdk.min.js      # SDK 压缩版 (34KB)
 │   ├── museum-agent-sdk.min.js.map  # Source Map
 │   └── vad-processor.js             # AudioWorklet 处理器 (5KB) ⚠️
@@ -257,35 +257,3 @@ WebSocket 全双工通信，支持流式响应。
 - **Android Chrome 66+**：✅ 完全支持
 - **iOS Safari 14.5+**：✅ 完全支持（需 HTTPS）
 - **微信内置浏览器**：⚠️ 可能有限制，建议在外部浏览器打开
-
-## 🎨 自定义
-
-### 修改样式
-
-编辑 `src/styles.css` 文件自定义界面样式。
-
-### 添加组件
-
-在 `src/components/` 目录下创建新组件。
-
-### 修改业务逻辑
-
-编辑 `src/app.js` 修改应用流程。
-
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request！
-
-## 📄 许可证
-
-MIT License
-
-## 📮 联系方式
-
-- GitHub: https://github.com/your-org/museum-agent
-- Email: support@museum-agent.com
-
-## 🎯 相关项目
-
-- **SDK 仓库**：`../../sdk/` - MuseumAgent Client SDK
-- **项目结构说明**：`../../PROJECT_STRUCTURE.md` - 完整的项目结构文档
