@@ -1,0 +1,8 @@
+unity // 上层容器目录名
+    ├─Build // Unity WebGL构建输出文件(部分)
+    │      build.data.unityweb
+    │      build.framework.js.unityweb
+    │      build.loader.js
+    │      build.wasm.unityweb
+    ├─ServerData // Addressables 构建输出
+    └─StreamingAssets // 流式资产
